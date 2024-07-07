@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Portfolio Website Design</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome CDN for font icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head>
+<body>
+    <div class="hero-header">
+        <div class="wrapper">
+            <header>
+                <div class="logo">
+                    <i class="fas fa-a"></i> <!-- Adjusted to use solid style for Font Awesome icon -->
+                    <div class="logo-text">Ahmed Hany</div>
+                </div>
+                <nav>
+                    <div class="togglebtn">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </nav>
+            </header>
+            <div class="container">
+                <div class="hero-pic">
+                    <img src="main_photo.jpg" alt="profile pic">
+                </div>
+                <div class="hero-text">
+                    <h5>Hi I'm <span class="input">Frontend Developer</span></h5>
+                    <h1>Ahmed Hany</h1>
+                    <p> I am a dedicated and passionate Computer Science student proficient in C++, Python, and Java, with an intermediate
+                        level of expertise. These skills empower me to effectively undertake projects and continually enhance my learning
+                        journey. Additionally, my background in human resources has equipped me with a solid understanding of HR principles. I
+                        aspire to pursue a career in entry-level web development, leveraging my interests and skills to achieve excellence in this
+                        field.
+                    </p>
+
+                    <div class="btn-group">
+                        <a href="https://drive.google.com/file/d/1ZiKedNwV0wadvCIvnUaN9IU6LcDZKBYh/view?usp=drivesdk" class="btn active">Download CV</a>
+                        <a href="https://wa.me/+201210739929" target="_blank" class="btn active">Contact</a>
+                    </div>
+
+                    <div class="social">
+                        <a href="mailto:ahmedhany532018@gmail.com"><i class="fab fa-google"></i></a> <!-- Adjusted to use brands style for Font Awesome icon -->
+                        <a href="https://www.linkedin.com/in/ahmedhaniielsayed?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/Ahmedhany644"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Typed.js for typing text effect -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.min.js"></script>
+    <script>
+        var typed = new Typed(".input", {
+            strings: ["Frontend Developer", "Web Developer"],
+            typeSpeed: 70, // Corrected from 'typedSpeed' to 'typeSpeed'
+            backSpeed: 55,
+            loop: true
+        });
+    </script>
+</body>
+</html>
